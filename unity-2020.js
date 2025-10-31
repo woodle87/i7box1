@@ -46,7 +46,7 @@
         loader: "unity",
         maxRatio: 16 / 9,
         minRatio: 9 / 16,
-        thumbnail: "https://img.poki-cdn.com/cdn-cgi/image/quality=80,width=100,height=100,fit=cover,g=0.5x0.5,f=auto/a398cd4e645b76810031bd97f8697414.png",
+        thumbnail: "https://ibb.co/xt0F9TXC",
         numScreenshots: 4,
         commentChangeTime: 5e3,
         spinnerRemoveDelay: 1e3,
@@ -720,7 +720,7 @@ d.innerHTML = `
         g && clearTimeout(g))
     }
     function s() {
-        var n = w.a.loadingComments || ["Loading"];
+        var n = w.a.loadingComments || [""];
         n ? (p.innerHTML = n[y],
         y++,
         y >= n.length && (y = 0),
